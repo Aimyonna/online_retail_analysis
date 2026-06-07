@@ -17,7 +17,7 @@ online_retail_analysis
  ┃ ┗ archive                  # 原始数据
  ┣ kmeans.py                  # 数据预处理与 K-Means 智能分群
  ┣ rfm.py                     # RFM 特征提取
- ┣ apriori_analysis.py     # 购物篮矩阵构建与 Apriori 关联规则挖掘
+ ┣ apriori_analysis.py        # 购物篮矩阵构建与 Apriori 关联规则挖掘
  ┣ requirements.txt           # 项目运行环境依赖包清单
  ┗ README.md                  # 项目说明与业务洞察文档
 ```
