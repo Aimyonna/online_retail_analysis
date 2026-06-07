@@ -22,7 +22,7 @@ online_retail_analysis
  ┗ README.md                  # 项目说明与业务洞察文档
 ```
 
-## 🧠 核心业务模块与商业洞察
+## 核心业务模块与商业洞察
 
 ### 模块一：RFM 商业模型特征提取 (rfm.py)
 * **Action:** 导入洗净的电商订单数据，利用 Pandas 的 `groupby` 与 `agg` 组合拳，将庞大的底层流水账按 `CustomerID` 进行高维聚合。一键提炼出每位独立客户的 Recency（最近一次消费天数）、Frequency（不重复订单频次）和 Monetary（累计消费总金额）三大核心商业指标。
